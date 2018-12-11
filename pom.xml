@@ -42,6 +42,8 @@
     </build>
 
     <dependencies>
+
+        <!--adding tomee dependency-->
         <dependency>
             <groupId>org.apache.tomee</groupId>
             <artifactId>javaee-api</artifactId>
