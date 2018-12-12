@@ -1,0 +1,91 @@
+Getting env variables for app moviefun in org DellEMC_PAL / space ravindra_b_g as ravindra_b_g@dell.com...
+OK
+
+System-Provided:
+{
+ "VCAP_SERVICES": {
+  "cleardb": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "hostname": "us-cdbr-iron-east-01.cleardb.net",
+     "jdbcUrl": "jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_231a8bf1c8aa8cf?user=b4168dab81649d\u0026password=b6452687",
+     "name": "ad_231a8bf1c8aa8cf",
+     "password": "b6452687",
+     "port": "3306",
+     "uri": "mysql://b4168dab81649d:b6452687@us-cdbr-iron-east-01.cleardb.net:3306/ad_231a8bf1c8aa8cf?reconnect=true",
+     "username": "b4168dab81649d"
+    },
+    "instance_name": "movies-mysql",
+    "label": "cleardb",
+    "name": "movies-mysql",
+    "plan": "spark",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "Data Stores",
+     "Cloud Databases",
+     "Developer Tools",
+     "Web-based",
+     "Data Store",
+     "Development and Test Tools",
+     "Online Backup \u0026 Storage",
+     "Single Sign-On",
+     "Buyable",
+     "mysql",
+     "relational",
+     "Cloud Security and Monitoring"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "user-provided": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "accessKey": "AKIAJQTUFHPLLNDIBCWQ",
+     "bucket": "cf-photo-storage-bucket",
+     "secretKey": "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"
+    },
+    "instance_name": "photo-storage",
+    "label": "user-provided",
+    "name": "photo-storage",
+    "syslog_drain_url": "",
+    "tags": [],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+
+{
+ "VCAP_APPLICATION": {
+  "application_id": "771dfb2a-4b58-4229-90ca-98d1199549e6",
+  "application_name": "moviefun",
+  "application_uris": [
+   "moviefun-unexpected-cat.cfapps.io"
+  ],
+  "application_version": "84bed181-7a51-426e-8ed8-226e17e64902",
+  "cf_api": "https://api.run.pivotal.io",
+  "limits": {
+   "disk": 1024,
+   "fds": 16384,
+   "mem": 1024
+  },
+  "name": "moviefun",
+  "space_id": "c41a3691-8e55-4c75-acd4-9b56c4ac7afe",
+  "space_name": "ravindra_b_g",
+  "uris": [
+   "moviefun-unexpected-cat.cfapps.io"
+  ],
+  "users": null,
+  "version": "84bed181-7a51-426e-8ed8-226e17e64902"
+ }
+}
+
+No user-defined env variables have been set
+
+No running env variables have been set
+
+No staging env variables have been set
+
