@@ -10,5 +10,4 @@ public interface BlobStore {
     Optional<Blob> get(String name) throws IOException;
 
     void deleteAll();
-    
 }
