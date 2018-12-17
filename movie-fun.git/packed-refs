@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled sorted 
+5de6447ae7f341f81203189d6240b67e284e8c18 refs/heads/master
+23fce468fa0fd4fbb5132fdae70b74679cc960c9 refs/heads/spring-bootification-work
+8780c72a8e40ba71a1bceb4b7426555c0679cbce refs/heads/two-data-sources-work
+bd53682a646127cb6ba8c63b691b6b171aa54b4e refs/tags/background-jobs-rabbit-solution
+f74cc31ee5e54ffef5e8e8d1ebdce86175b103e2 refs/tags/background-jobs-rabbit-start
+f74cc31ee5e54ffef5e8e8d1ebdce86175b103e2 refs/tags/background-jobs-solution
+1a6e2fc4adab2b9db68122a45332d2c3d115de3e refs/tags/background-jobs-start
+61d503c741aa2711797756f74bf4d5bf9b4831ed refs/tags/logging-solution
+003f255007f011e5018c12d0513ecb383f565830 refs/tags/logging-start
+c1ab21b62260a31b36b172519287d9ff3ef32eef refs/tags/read-resource-from-classpath-solution
+d56ec29e7fd6ac0d0a7fe877ea8c41940d98211f refs/tags/read-resource-from-classpath-start
+7d4a76b36e2a2abb0881b1d72b413b9f024076a3 refs/tags/spring-boot-solution
+8d40548a3c5815384899f1497639a810802b318f refs/tags/spring-boot-start
+607547e03a3c9864cf65c3c999fc93a78c1126bb refs/tags/two-data-sources-solution
+021ce6cc0054f79fffb6fd61d086fb3bd5e1111d refs/tags/two-data-sources-start
+026f631874cd6acbd231d241975858fb347c4202 refs/tags/write-to-blobstore-solution
+0ba360faa1e83a8e40463aad3b7cf3ea3537d887 refs/tags/write-to-blobstore-start
